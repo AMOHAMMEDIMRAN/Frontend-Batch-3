@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+h1{
+    background: #ff9b9b;
+}
+
+.child{
+    width: 200px;
+    height: 200px;
+    background: #000;
+}
+
+.wrapper>div>div:nth-child(3) p{
+    color: blue;
+}

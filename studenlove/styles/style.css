@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 80%;
+    margin: 0px auto;
+}
+header{
+    background-color: blueviolet;
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.header-wrapper nav{
+    display: flex;
+    gap: 40px;
+    font-size: 18;
+    font-weight: 600;
+}
+.header-wrapper nav a{
+    color: black;
+}
+.hero-wrapper{
+    padding: 100px 0px;
+    display: flex;
+    align-items: center;
+}
+.hero-wrapper .child-one{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero-wrapper .child-one h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+.hero-wrapper .child-one h1 span{
+    color: blueviolet;
+}
+.hero-wrapper .child-two{
+    text-align: end;
+}
+.hero-wrapper .child-two img{
+    width: 80%;
+}

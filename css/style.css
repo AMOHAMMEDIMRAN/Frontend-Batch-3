@@ -1,0 +1,61 @@
+/* *{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color: red;
+}
+
+.immu{
+    color: blue;
+}
+
+#coder{
+    color: aqua;
+} */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* h1{ */
+    /* padding: 20px; */
+    /* padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px; */
+    /* padding: 10px 20px;
+    padding: 10px 20px 30px 40px; */
+    /* border: 12px solid black;
+    margin: 20px 40px;
+    margin: 10px 40px 50px 70px; */
+    /* margin: 30px; */
+/* } */
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    border-radius: 20px;
+    
+}
+
+
+
+
+.box h1{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60rem;
+    /* font-weight: 900; */
+    font-weight: lighter;
+    font-style: italic;
+}
+
+
+
+
+
